@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tarea #1</title>
+    <script type="module" src="../js/main.js"></script>
+    <link rel="stylesheet" href="../css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1 id="title">Pulperia</h1>
+      <h2 id="subtitle">Descripcion: Tarea Semana 1</h2>
+    
+      <p>
+        Programa que calcula el monto con impuestos que el usuario debe pagar.
+        <b>El impuesto de venta es del 13%</b>
+      </p>
+      <div class="flex-container">
+      <h3>
+        Calcule el monto a pagar:<input
+          id="precioIn"
+          class="input_precio"
+          placeholder="Ingrese precio de producto"
+        />
+      </h3>
+      <button id="preciosBtn">Presione para agregar otro precio</button>
+    
+      <ul id="precioOut"></ul>
+      <h3 id="sumaDePrecios">Total a pagar: <span id="totalSpan"></span></h3>
+      <button id="calcularBtn">Calcular</button>
+      </div>
+    </div>
+  </body>
+</html>
